@@ -1,0 +1,100 @@
+:root {
+  --background: #fff5de;
+  --color: #2B3A45;
+  --text: #02182B;
+  --font: 'Open Sans', sans-serif;
+}
+body {
+  background-color: var(--background);
+  font-family: var(--font);
+  color: var(--text);
+}
+#avatar {
+  width: 25%;
+  border-radius: 100%;
+}
+
+h1 {
+  font: 'Kaushan Script';
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+a, a:link, a:visited, a:hover {
+  
+  color: var(--text);
+}
+
+a:hover {
+  color: var(--color);
+}
+
+#container {
+  text-align: justify;
+  line-height: 150%;
+  font-size: 1.1em;
+}
+
+#subtitle {
+  font-size: 0.9em;
+  border-bottom: 1px dashed var(--color);
+  padding-bottom: 10px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.mini-subtitle {
+  font-size: 0.8em;
+  color: var(--color);
+}
+
+footer {
+  border-top: 1px dashed var(--color);
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.85em !important;
+}
+footer img {
+  width: 5%;
+  opacity: 0.7;
+}
+
+
+h2 {
+	font-size: 1.6em;
+	margin-top: 10px;
+	margin-bottom: 0;
+	letter-spacing: 1px;
+	font-weight: normal;
+}
+
+
+@media screen and (min-width:1500px) {
+            #container {
+                width: 45%;
+                margin: auto;
+            }
+            }
+
+            @media screen and (min-width:1000px) and (max-width: 1500px) {
+            #container {
+                width: 50%;
+                margin: auto;
+            }
+            }
+            @media screen and (min-width:850px) and (max-width: 1000px) {
+            #container {
+                width: 70%;
+                margin: auto;
+            }
+            }
+            @media screen and (max-width:850px) {
+            #container  {
+                width: 98%;
+                margin: auto;
+            }
+          }
